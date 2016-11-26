@@ -1,0 +1,81 @@
+/*
+*Font
+*/
+
+/*
+*
+*/
+Body {
+	padding 30px 30px;
+	text-align:center;
+	background-color:transparent #FFF;
+}
+
+body > * {
+	text-align:left;
+}
+
+/*
+*Header
+*/
+
+h1 {
+	text-align:center;
+	font-family:"MS Serif", "New York", serif;
+}
+
+
+/*
+*aside
+*/
+
+/*
+*section 
+*/
+
+
+form {
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+  display: block;
+  font-weight: bold;
+  
+}
+
+input, textarea {
+	line-height: 25px;
+	padding: 5px;
+	width:285;
+	border: 1 px soild #e5e5e5;
+	outline: 0;
+	font: normal 15px/150% Verdana, Geneva, sans-serif;
+	
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.1);
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+	background: -webkit-linear-gradient(top, #EEE 0px, #FFF 25px);
+	background: -moz-linear-gradient(top, #EEE 0px, #FFF 25px);
+}
+
+textarea {
+	width:420px;
+	max-width: 400px;
+	height: 180px;
+}
+
+label {
+	padding-left: 10px;
+	color: #808080;
+	display: inline-block;
+	width: 155px;
+}
+
+input[type=submit]:hover {
+	background: #7387A6;
+	-webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+}
+/*
+*footer
+*/
